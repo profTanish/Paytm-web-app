@@ -3,4 +3,4 @@
 
 This project is like a simulator for payment app where you can send money to users
 This consists auth using jwts and has mongoDB transactions
-This have signin and signup and user lists, and has transaction simulations where we can send money to other users
+This have signin and signup and user lists, and has transaction simulations where we can send money to other users.
