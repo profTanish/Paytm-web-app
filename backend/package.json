@@ -13,6 +13,7 @@
   "license": "ISC",
   "dependencies": {
     "@types/express": "^5.0.0",
+    "start": "node index.js",
     "@types/jsonwebtoken": "^9.0.8",
     "@types/mongoose": "^5.11.97",
     "cors": "^2.8.5",
