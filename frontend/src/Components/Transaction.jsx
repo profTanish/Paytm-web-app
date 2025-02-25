@@ -5,7 +5,7 @@ export function Transaction(){
     const[msg,setMsg] = useState("")
     
     const sendMoneyOnClick = (()=>{
-            fetch(`http://localhost:3000/api/v1/account/transfer`,{
+            fetch(`https://paytm-web-app-host.vercel.app/api/v1/account/transfer`,{
                 method: 'POST',
                 headers : {
                     'Accept' : 'application/json',

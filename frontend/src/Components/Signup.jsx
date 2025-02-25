@@ -14,7 +14,7 @@ const [link, setLink] = useState(<></>);
 
 const navigate = useNavigate("/home")
     const submit = (() => {
-        fetch("http://localhost:3000/api/v1/user/signup", {
+        fetch("https://paytm-web-app-host.vercel.app/api/v1/user/signup", {
             method: "POST",
             headers: {
                 'Application': 'application/json',

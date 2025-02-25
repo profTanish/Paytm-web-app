@@ -10,7 +10,7 @@ export function UserList() {
     const setName = useSetRecoilState(otherUser);
     
         async function fetchList() {
-            const response = await fetch(`http://localhost:3000/api/v1/user/bulk/?filter=${word}`, {
+            const response = await fetch(`https://paytm-web-app-host.vercel.app/api/v1/user/bulk/?filter=${word}`, {
                 method: "GET",
                 headers: {
                     'Content-Type': 'application/json',

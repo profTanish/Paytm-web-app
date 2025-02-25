@@ -1,6 +1,6 @@
 const userList = [];
 async function fetchList() {
-    const response = await fetch("http://localhost:3000/api/v1/user/bulk", {
+    const response = await fetch("https://paytm-web-app-host.vercel.app/api/v1/user/bulk", {
         method: "GET",
         headers: {
             'Content-Type': 'application/json'
