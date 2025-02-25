@@ -1,8 +1,9 @@
 // backend/db.js
 const mongoose = require('mongoose');
-const {MONGO_URL} = require('./config');
+const dotenv = require('dotenv');
+dotenv.config();
 
-mongoose.connect(MONGO_URL)
+mongoose.connect(process.env.MONGO_URL)
 
 // Create a Schema for Users
 const userSchema = new mongoose.Schema({
